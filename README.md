@@ -29,12 +29,9 @@ Once installed, create a file called `tsconfig.json` (for Typescript projects) o
         "moduleResolution": "node",
         "paths": {
             "N/*": ["./node_modules/@btonasse/suitescript-types/types/N/*"]
-        }
+        },
+        "types": ["@btonasse/suitescript-types"]
     },
-    "files": [
-        "./node_modules/@btonasse/suitescript-types/types/index.d.ts",
-        "./node_modules/@btonasse/suitescript-types/types/SuiteScriptV1.d.ts"
-    ],
     "include": ["./**/*"],
     "exclude": ["node_modules"]
 }
@@ -55,12 +52,9 @@ Once installed, create a file called `tsconfig.json` (for Typescript projects) o
         "moduleResolution": "node",
         "paths": {
             "N/*": ["./node_modules/@btonasse/suitescript-types/types/N/*"]
-        }
+        },
+        "types": ["@btonasse/suitescript-types"]
     },
-    "files": [
-        "./node_modules/@btonasse/suitescript-types/types/index.d.ts",
-        "./node_modules/@btonasse/suitescript-types/types/SuiteScriptV1.d.ts"
-    ],
     "include": ["./**/*.ts"],
     "exclude": ["node_modules"]
 }

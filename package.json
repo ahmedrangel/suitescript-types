@@ -2,9 +2,10 @@
     "name": "@btonasse/suitescript-types",
     "description": "Typings for SuiteScript 2.1",
     "homepage": "https://github.com/btonasse/suitescript-types",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "author": "Bernardo Tonasse",
     "license": "MIT",
+    "types": "./types/index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/btonasse/suitescript-types.git"
